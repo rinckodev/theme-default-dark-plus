@@ -4,7 +4,7 @@
   "description": "",
   "version": "0.0.1",
   "publisher": "rinckodev",
-  "icon": "icon.png",
+  "icon": "https://github.com/rinckonobre/theme-default-dark-plus/blob/master/images/icon.png?raw=true",
   "engines": {
     "vscode": "^1.76.0"
   },
