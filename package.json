@@ -3,6 +3,8 @@
   "displayName": "Default Dark Plus - Rincko",
   "description": "",
   "version": "0.0.1",
+  "publisher": "rinckodev",
+  "icon": "icon.png",
   "engines": {
     "vscode": "^1.76.0"
   },
