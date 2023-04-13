@@ -1,0 +1,21 @@
+{
+  "name": "default-dark-plus",
+  "displayName": "Default Dark Plus - Rincko",
+  "description": "",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.76.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Default Dark Plus - Rincko",
+        "uiTheme": "vs-dark",
+        "path": "./themes/default-dark-plus-color-theme.json"
+      }
+    ]
+  }
+}
