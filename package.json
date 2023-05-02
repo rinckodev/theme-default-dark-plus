@@ -2,7 +2,7 @@
   "name": "default-dark-plus",
   "displayName": "Default Dark Plus - RinckoDEV",
   "description": "The default dark theme, but even darker",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "publisher": "rinckodev",
   "icon": "icon.png",
   "repository": {
@@ -17,9 +17,19 @@
   "contributes": {
     "themes": [
       {
-        "label": "Default Dark Plus - Rincko",
+        "label": "Dark Plus - Darker",
         "uiTheme": "vs-dark",
-        "path": "./themes/default-dark-plus-color-theme.json"
+        "path": "./themes/darker-color-theme.json"
+      },
+      {
+        "label": "Dark Plus - Alt",
+        "uiTheme": "vs-dark",
+        "path": "./themes/alt-color-theme.json"
+      },
+      {
+        "label": "Dark Plus - Magic",
+        "uiTheme": "vs-dark",
+        "path": "./themes/magic-color-theme.json"
       }
     ]
   }

@@ -1,9 +1,11 @@
 # Change Log
 
-All notable changes to the "default-dark-plus" extension will be documented in this file.
-
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
-
+## [0.1.0]
+- Removed unnecessary properties
+- Transparent colors in some menus
+### Features
+- Added alt color theme
+- Added magic color theme
 ## [Unreleased]
 
 - Initial release
