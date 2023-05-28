@@ -7,13 +7,18 @@
 		"panel.background": "#121212",
 		"sideBar.background": "#121212",
 		"sideBarSectionHeader.background": "#121212",
-		"menu.background": "#1a1a1aef",
+		
+		"menu.background": "#1e1e1ee8",
+		"menu.border": "#5d5d5da3",
+		
 		"editorGroupHeader.tabsBackground": "#121212",
 		"titleBar.activeBackground": "#090909",
 		"tab.activeBackground": "#1a1a1a",
 		"tab.inactiveBackground": "#1a1a1a20",
 		"statusBarItem.remoteBackground": "#212121",
-		"quickInput.background": "#121212c5",
+
+		"quickInput.background": "#1e1e1e97",
+		"quickInput.foreground": "#cce5f4",
 		
 		"activityBar.border": "#5d5d5d30",
 		"titleBar.border": "#5d5d5d30",
@@ -21,9 +26,7 @@
 		"statusBar.border": "#ffffff15",
 		"sideBar.border": "#5d5d5d30",
 
-		"statusBar.background": "#121212"
-
-		
+		"statusBar.background": "#121212",
 	},
 	"tokenColors": [
 		{
@@ -38,18 +41,6 @@
 				"foreground": "#bfffef"
 			},
 		},
-		// {
-		// 	"scope": [
-		// 		"source.cpp keyword.operator.new",
-		// 		"keyword.operator.delete",
-		// 		"keyword.other.using",
-		// 		"keyword.other.operator",
-		// 		"entity.name.operator"
-		// 	],
-		// 	"settings": {
-		// 		"foreground": "#C586C0"
-		// 	}
-		// },
 		{
 			"scope": [
 				"constant.character",
@@ -69,13 +60,6 @@
 				"punctuation.section.embedded.begin.php",
 				"punctuation.section.embedded.end.php",
 				"variable.language",
-			],
-			"settings": {
-				"foreground": "#569CD6"
-			}
-		},
-		{
-			"scope": [
 				"keyword.operator.new",
 				"keyword.operator.expression",
 				"keyword.operator.cast",
@@ -85,10 +69,22 @@
 				"keyword.operator.alignas",
 				"keyword.operator.instanceof",
 				"keyword.operator.logical.python",
-				"keyword.operator.wordlike"
+				"keyword.operator.wordlike",
+				"markup.changed",
+				
 			],
 			"settings": {
 				"foreground": "#569CD6"
+			}
+		},
+		{
+			"scope": [
+				"markup.bold",
+				"markup.heading"
+			],
+			"settings": {
+				"foreground": "#569CD6",
+				"fontStyle": "bold"
 			}
 		},
 		{
@@ -133,7 +129,7 @@
 				"entity.other.inherited-class"
 			],
 			"settings": {
-				"foreground": "#4EC9B0"
+				"foreground": "#4EC9B0" // #59dc98
 			}
 		},
 		{
@@ -161,14 +157,7 @@
 				"variable.other.less",
 				"source.coffee.embedded",
 				"support.function.git-rebase",
-				"meta.object-literal.key"
-			],
-			"settings": {
-				"foreground": "#9CDCFE"
-			}
-		},
-		{
-			"scope": [
+				"meta.object-literal.key",
 				"variable",
 				"meta.definition.variable.name",
 				"support.variable",
@@ -209,6 +198,33 @@
 		},
 		{
 			"scope": [
+				"string.regexp",
+				"constant.character.character-class.regexp",
+				"constant.other.character-class.set.regexp",
+				"constant.other.character-class.regexp",
+				"constant.character.set.regexp"
+			],
+			"settings": {
+				"foreground": "#D16969"
+			}
+		},
+		{
+			"scope": [
+				"meta.embedded",
+				"source.groovy.embedded",
+				"string meta.image.inline.markdown",
+				"meta.template.expression",
+				"keyword.operator",
+				"storage.modifier.import.java",
+				"variable.language.wildcard.java",
+				"storage.modifier.package.java"
+			],
+			"settings": {
+				"foreground": "#D4D4D4"
+			}
+		},
+		{
+			"scope": [
 				"variable.other.constant",
 				"variable.other.enummember"
 			],
@@ -240,13 +256,6 @@
 		{
 			"scope": [
 				"constant.numeric",
-			],
-			"settings": {
-				"foreground": "#B5CEA8"
-			}
-		},
-		{
-			"scope": [
 				"keyword.operator.plus.exponent",
 				"keyword.operator.minus.exponent",
 				"meta.preprocessor.numeric",
@@ -258,6 +267,32 @@
 				"foreground": "#B5CEA8"
 			}
 		},
+		{
+			"scope": [
+				"punctuation.definition.tag",
+			],
+			"settings": {
+				"foreground": "#808080"
+			}
+		},
+		{
+			"scope": [
+				"entity.name.tag.css",
+				"entity.other.attribute-name.class.css",
+				"entity.other.attribute-name.class.mixin.css",
+				"entity.other.attribute-name.id.css",
+				"entity.other.attribute-name.parent-selector.css",
+				"entity.other.attribute-name.pseudo-class.css",
+				"entity.other.attribute-name.pseudo-element.css",
+				"source.css.less entity.other.attribute-name.id",
+				"entity.other.attribute-name.scss",
+				"keyword.operator.quantifier.regexp",
+				"constant.character.escape"
+			],
+			"settings": {
+				"foreground": "#D7BA7D"
+			}
+		},
 	],
 	"semanticHighlighting": true,
 	"semanticTokenColors": {
@@ -265,5 +300,6 @@
 			"foreground": "#FFC66D",
 			"italic": true
 		},
+		"regexp": "#ff0000"
 	}
 }
