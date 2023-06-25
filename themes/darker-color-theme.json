@@ -27,6 +27,7 @@
 		"sideBar.border": "#5d5d5d30",
 
 		"statusBar.background": "#121212",
+		"editorUnnecessaryCode.opacity": "#1e1e1e38"
 	},
 	"tokenColors": [
 		{
@@ -71,16 +72,17 @@
 				"keyword.operator.logical.python",
 				"keyword.operator.wordlike",
 				"markup.changed",
+				"keyword.other.definition.ini",
 				
 			],
 			"settings": {
-				"foreground": "#569CD6"
+				"foreground": "#569CD6",
 			}
 		},
 		{
 			"scope": [
 				"markup.bold",
-				"markup.heading"
+				"markup.heading",
 			],
 			"settings": {
 				"foreground": "#569CD6",
@@ -221,6 +223,24 @@
 			],
 			"settings": {
 				"foreground": "#D4D4D4"
+			}
+		},
+		{
+			
+			"scope":[
+				"markup.list",
+			],
+			"settings": {
+				"foreground": "#a9b4c6"
+			}
+		},
+		{
+			
+			"scope":[
+				"punctuation.definition.list.begin.markdown",
+			],
+			"settings": {
+				"foreground": "#6796E6",
 			}
 		},
 		{
